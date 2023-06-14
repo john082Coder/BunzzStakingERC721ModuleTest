@@ -1,1 +1,1 @@
-connectToOtherContracts, buy, updatePrice
+stake, unstake, earned, fund

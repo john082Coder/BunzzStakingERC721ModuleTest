@@ -1,7 +1,8 @@
 |Name|Type|Description|Example|Default|
 |--- |---|---|---|---|
-|_startTime|address|start time in timestamp format|[]|N/A|
-|_endTime|address|end time in timestamp format|[]|N/A|
+|rewardsToken_|address|Address to rewards ERC20 token|[]|N/A|
+|stakingToken_|address|Address to staking ERC721 token|[]|N/A|
+|duration|uint256|Reward duration in seconds|[]|N/A|
 
 
 
