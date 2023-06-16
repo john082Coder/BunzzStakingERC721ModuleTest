@@ -1,13 +1,13 @@
 ## Preparation before deployment
-1. You have to prepare any ERC20 token for an initial coin offering.
+1. Prepares staking token(ERC721), rewards token(ERC20) address, and rewards duration.
 
 ## Get started(Operation)
-1. Deploy the new ICO contract, passing start time and end time as module parameters.
-2. Transfer prepared ERC20 tokens to the deployed ICO contract.
-3. You can set the token that you want to sell in the ICO and the price of the token.
-4. Users can call `buy` function to buy tokens by depositing ETH to the ICO contract.
-5. After finishing ICO, owner can claim ETH or remain tokens from the ICO contract.
-
+1. Deploy the staking ERC721 contract, passing params staking token address, reward token address and rewards duration.
+2. Owner funds rewards token.
+3. Users can stake staking tokens, rewards amount will be calculated by shares.
+4. Users can unstake tokens if requires or exit staking.
+5. Users can claim rewards anytime.
+6. Owner can fund again after rewards duration.
 
 
 
